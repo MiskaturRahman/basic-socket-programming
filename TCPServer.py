@@ -1,5 +1,5 @@
 from socket import *  # To create a socket
-serverName = '192.168.31.1'  # setting a serverName variable to 192.168.31.1
+serverName = '127.0.0.1'  # setting a serverName variable to 192.168.31.1
 serverPort = 12000  # setting a serverPort variable to 12000
 
 serverSocket = socket(AF_INET, SOCK_STREAM)  # Create a socket
